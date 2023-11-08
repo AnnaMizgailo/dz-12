@@ -1,0 +1,30 @@
+{
+    "Десерт горячий Брауни Бургер Кинг":{
+        "calories": 456,
+        "proteins": 5.6,
+        "fats": 30.9,
+        "carbohydrates": 39.2,
+        "url": "hot-brownie-burger-king.jpg"
+    },
+    "Картофель Деревенский Бургер Кинг":{
+        "calories": 157,
+        "proteins": 4.2,
+        "fats": 4.2,
+        "carbohydrates": 25.5,
+        "url": "ice-cone-burger-king.jpg"
+    },
+    "Десерт мороженое Рожок Бургер Кинг":{
+        "calories": 157,
+        "proteins": 4.2,
+        "fats": 4.2,
+        "carbohydrates": 25.5,
+        "url": "country-potatoes-burger-king.jpg"
+    },
+    "Картофель Кинг Фри Бургер Кинг":{
+        "calories": 157,
+        "proteins": 4.2,
+        "fats": 4.2,
+        "carbohydrates": 25.5,
+        "url": "potato-king-fries-burger-king.jpg"
+    }
+}

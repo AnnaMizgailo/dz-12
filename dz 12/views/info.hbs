@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/style.css">
+    <title>Calorizer</title>
+</head>
+<body>
+    <div class="container">
+        <button id="generate" onclick="generate()">Сгенерировать блюдо</button>
+    </div>
+    <div class="container">
+        <input type="text" id="key" placeholder="Введите ключ">
+        <input type="text" id="value" placeholder="Введите значение">
+        <button id="search" onclick="search()">Искать!</button>
+    </div>
+    {{#if itemVisible}}
+        <div class="container">
+            <h1>Блюдо: {{itemName}}</h1>
+            <p>Калорийность: {{calories}}</p>
+            <p>Белки: {{proteins}}</p>
+            <p>Жиры: {{fats}}</p>
+            <p>Углеводы: {{carbohydrates}}</p>
+        {{#if imgFound}}
+            <img src=`https://calorizator.ru/sites/default/files/imagecache/product_512/product/{{itemImg}}`>
+        {{/if}}
+        </div>
+    {{/if}}
+    
+</body>
+</html>
